@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso de datos</title>
+</head>
+<body>
+  <form id="dataForm">
+    <label for="countrySelect">Selecciona un país:</label>
+    <select id="countrySelect">
+
+      <!-- Opciones de países se agregarán dinámicamente desde JavaScript -->
+
+    </select><br><br>
+
+    <label for="year1">Año de referencia 1:</label>
+    <input type="number" id="year1" name="year1" required><br><br>
+
+    <label for="year2">Año de referencia 2:</label>
+    <input type="number" id="year2" name="year2" required><br><br>
+
+    <label for="projectionYears">Años de proyección:</label>
+    <input type="number" id="projectionYears" name="projectionYears" required><br><br>
+
+    <button type="submit">Guardar Datos</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>

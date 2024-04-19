@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Resultados</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    tr:hover {
+      background-color: #ffff99;
+    }
+  </style>
+</head>
+<body>
+  <table id="resultsTable">
+    <!-- Filas de datos se agregarán dinámicamente desde JavaScript -->
+  </table>
+  
+  <script src="procesa.js"></script>
+</body>
+</html>
